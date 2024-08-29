@@ -9,16 +9,44 @@ body{
 .ejercicio1{
     background: darkslateblue;
     height: 100vh;
-    padding: 60px;
+    padding: 80px;
 }
 .ejercicio1 .card1{
     width: 410px;
     background: white;
     border-radius: 30px;
     margin: 0 auto;
+    padding: 40px;
 }
-.ejercicio1 .card1 img{}
-.ejercicio1 .card1 .datos_carga{}
-.ejercicio1 .card1 .lista_archivos{}
-.ejercicio1 .card1 .lista_archivos li{}
+.ejercicio1 .card1 img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.ejercicio1 .card1 .datos_carga{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ejercicio1 .card1 .datos_carga h1{
+    font-size: 64px;
+    color: blueviolet;
+}
+.ejercicio1 .card1 .datos_carga p{
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+    font-weight: lighter;
+}
+.ejercicio1 .card1 .lista_archivos{
+    margin-bottom: 40px;
+    gap: 40px;
+}
+.ejercicio1 .card1 .lista_archivos li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+}
 .ejercicio1 .card1 button{}
