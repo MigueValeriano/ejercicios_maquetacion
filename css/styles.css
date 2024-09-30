@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: sans-serif;
 }
@@ -292,7 +291,7 @@ body {
 
 .ejercicio4 .card4 .contenido_card4 .imagecard4 h1 {
     color: #000;
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", sans-serif;
     font-size: 370px;
     font-style: normal;
     font-weight: 400;
@@ -344,6 +343,53 @@ body {
     padding-right: 10px;
     font-weight: lighter;
 }
-main {
-    display: inline;
+.ejercicio5 .contenido_card5{
+    padding: 20px 0;
+}
+.ejercicio5 .contenido_card5 h1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.ejercicio5 .contenido_card5 h2 {
+    font-size: 18px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+}
+.ejercicio5 .contenido_card5 h3 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.board{
+    display: flex;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+.board img{
+    height: 240px;
+}
+.board h2{
+    font-weight: lighter;
+}
+.newboard{
+    margin-right: 100px;
+}
+.inferior{
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.inferior img{
+    height: 240px;
+}
+.inferior h2{
+    font-weight: lighter;
+}
+.smoot{
+    margin-right: 110px;
 }
